@@ -72,37 +72,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "directlist",
-        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt"
-      }
-    },{
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "applecn",
-        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/apple-cn.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "googlecn",
-        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/google-cn.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "gfw",
-        "uri": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "inputDir": "./data"
       }
     },
@@ -124,7 +93,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip-only-cn-private.dat",
-        "wantedList": ["cn", "private","googlecn","applecn"]
+        "wantedList": ["cn", "private"]
       }
     },
     {
@@ -140,8 +109,7 @@
           "google",
           "netflix",
           "telegram",
-          "twitter",
-          "gfw"
+          "twitter"
         ]
       }
     },
